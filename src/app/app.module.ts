@@ -8,9 +8,9 @@ import { HelloComponent } from './hello.component';
 import { AngularFireModule } from "@angular/fire";
 import { AngularFireAuthModule } from "@angular/fire/auth";
 import { AngularFirestoreModule } from '@angular/fire/firestore';
-import { environment } from '../environments/environment';
+import { environment } from './environments/environment';
 import { AppRoutingModule } from '../shared/routing/app-routing.module';
-import { SignInComponent } from '../components/sign-in/sign-in.component';
+import { SignInComponent } from './components/sign-in/sign-in.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,

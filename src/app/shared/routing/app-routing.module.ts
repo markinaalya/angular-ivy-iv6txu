@@ -3,8 +3,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 // Import all the components for which navigation service has to be activated 
-import { SignInComponent } from '../../components/sign-in/sign-in.component';
-import { AuthGuard } from "../../shared/guard/auth.guard";
+//import { AuthGuard } from "../../shared/guard/auth.guard";
+import { SignInComponent } from '../../components/sign-in/sigm-in.component'
 
 
 const routes: Routes = [
