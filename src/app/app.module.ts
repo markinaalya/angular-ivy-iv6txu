@@ -9,13 +9,15 @@ import { AngularFireModule } from "@angular/fire";
 import { AngularFireAuthModule } from "@angular/fire/auth";
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
+import { SignInComponent } from './sign-in/sign-in.component';
+import { AppRoutingModule } from '../shared/routing/app-routing.module';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
     AngularFirestoreModule,],
-  declarations: [ AppComponent, HelloComponent ],
+  declarations: [ AppComponent, HelloComponent, SignInComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
